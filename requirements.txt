@@ -1,7 +1,10 @@
-numpy>=1.24.0
-h5py>=3.8.0
-spacy>=3.6.0
-pdfminer.six==20221105
-unidecode==1.3.6
-python-docx==0.8.11
-nltk==3.8.1
+pymupdf
+pdfplumber
+pytesseract
+langdetect
+sentence-transformers
+numpy
+pdf2image
+wordninja
+indic-nlp-library
+
