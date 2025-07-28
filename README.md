@@ -17,8 +17,8 @@ An intelligent document analysis system that extracts and prioritizes relevant s
 
 | Name              | Role                | GitHub Profile |
 |-------------------|---------------------|----------------|
-| [Roushani Kumari] | Project Lead        | [@Roushani06]  |
-| [Snigdha Kumar]   | NLP Specialist      | [@snigdhaydv27]|
+| Roushani Kumari   | Project Lead        | @Roushani06    |
+| Snigdha Kumar     | NLP Specialist      | @snigdhaydv27  |
 
 
 
