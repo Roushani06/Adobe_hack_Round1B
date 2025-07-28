@@ -59,10 +59,22 @@ docker run -v ${PWD}/input:/app/input -v ${PWD}/output:/app/output pdf_analyser:
 ## 📁 File Structure
 ```
 persona-doc-intel/
-├── input/                      # Directory for input files
-│   ├── document1.pdf          # Sample PDF document for analysis
-│   └── input.json            # Configuration file with persona and job details
-├── output/                    # Directory for generated analysis results
+├── input/
+│   ├── collection1/          # Sample input collection 1
+│   │   ├── pdfs/            # PDF documents for this collection
+│   │   │   ├── South of France - Cities.pdf
+│   │   │   └── ...other PDFs
+│   │   └── config.json      # Configuration for this collection
+│   ├── collection2/         # Sample input collection 2
+│   │   ├── pdfs/
+│   │   └── config.json
+│   └── collection3/         # Sample input collection 3
+│       ├── pdfs/
+│       └── config.json
+├── output/                  # Generated analysis results
+│   ├── collection1_output.json
+│   ├── collection2_output.json
+│   └── collection3_output.json
 ├── src/                      # Source code directory
 │   ├── document_processor.py # Handles PDF parsing and text extraction
 │   ├── persona_analyzer.py   # Implements persona-based content analysis

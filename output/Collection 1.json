@@ -9,67 +9,108 @@
             "South of France - Tips and Tricks.pdf",
             "South of France - Traditions and Culture.pdf"
         ],
-        "persona": "Travel Planner",
-        "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
-        "processing_timestamp": "2025-07-28T12:50:10.800253"
+        "persona": {
+            "role": "Travel Planner"
+        },
+        "job_to_be_done": {
+            "task": "Plan a trip of 4 days for a group of 10 college friends."
+        },
+        "processing_timestamp": "2025-07-28T11:39:46.685173",
+        "processing_metrics": {
+            "total_sections": 34,
+            "selected_sections": 8
+        }
     },
     "extracted_sections": [
         {
-            "document": "South of France - Tips and Tricks",
-            "section_title": "Planning a trip to the South of France requires thoughtful preparation to ensure a comfortable and enjoyable experience.",
+            "document": "South of France - Things to Do",
+            "section_title": "Educational Experiences",
             "importance_rank": 15,
-            "page_number": 1
-        },
-        {
-            "document": "South of France - Tips and Tricks",
-            "section_title": "Packing for a trip to the South of France involves considering the season, planned activities, and the needs of both adults and children.",
-            "importance_rank": 10,
             "page_number": 9
         },
         {
-            "document": "South of France - Things to Do",
-            "section_title": "The South of France, with its stunning coastline, picturesque villages, and vibrant cities, offers a wealth of activities and experiences for travelers.",
+            "document": "South of France - History",
+            "section_title": "Introduction",
+            "importance_rank": 9,
+            "page_number": 1
+        },
+        {
+            "document": "South of France - Restaurants and Hotels",
+            "section_title": "Family-Friendly Hotels",
+            "importance_rank": 9,
+            "page_number": 9
+        },
+        {
+            "document": "South of France - Cuisine",
+            "section_title": "Introduction",
             "importance_rank": 8,
             "page_number": 1
         },
         {
-            "document": "South of France - Things to Do",
-            "section_title": "The South of France is a diverse and enchanting region that offers a wide range of activities and experiences for travelers.",
+            "document": "South of France - Cuisine",
+            "section_title": "The South of France is home to many iconic dishes that you must try during your visit:",
             "importance_rank": 8,
-            "page_number": 13
+            "page_number": 3
         },
         {
-            "document": "South of France - Cuisine",
-            "section_title": "The South of France offers a rich and diverse culinary landscape that is sure to delight any food lover.",
-            "importance_rank": 6,
-            "page_number": 8
+            "document": "South of France - Restaurants and Hotels",
+            "section_title": "Upscale Hotels",
+            "importance_rank": 8,
+            "page_number": 11
+        },
+        {
+            "document": "South of France - Things to Do",
+            "section_title": "Beach Hopping",
+            "importance_rank": 8,
+            "page_number": 2
+        },
+        {
+            "document": "South of France - Things to Do",
+            "section_title": "Water Sports",
+            "importance_rank": 8,
+            "page_number": 2
         }
     ],
     "subsection_analysis": [
         {
-            "document": "South_of_France_-_Tips_and_Tricks.pdf",
-            "refined_text": "Planning a trip to the South of France requires thoughtful preparation to ensure a comfortable and enjoyable experience. This guide covers everything from packing essentials to travel tips, catering to all seasons and various activities. Whether you're traveling solo, with kids, or in a group, this guide will help you make the most of your trip.",
-            "page_number": 1
-        },
-        {
-            "document": "South_of_France_-_Tips_and_Tricks.pdf",
-            "refined_text": "Packing for a trip to the South of France involves considering the season, planned activities, and the needs of both adults and children. By following this comprehensive guide and incorporating the tips and tricks provided, you'll be well-prepared for a comfortable and enjoyable trip. Remember to pack light, versatile clothing, and essential items to make the most of your travel experience. Bon voyage!",
+            "document": "South_of_France_-_Things_to_Do.pdf",
+            "refined_text": "Nightlife and Entertainment The South of France oﬀers a vibrant nightlife scene, with options ranging from chic bars to lively nightclubs: Bars and Lounges • Monaco: Enjoy classic cocktails and live jazz at Le Bar Americain, located in the Hôtel de Paris. • Toulouse: Visit Cité de l'Espace for a space-themed science museum with interactive exhibits, a planetarium, and a replica of the Mir space station. • Saint-Tropez: Relax at Bar du Port, known for its chic atmosphere and waterfront views.",
             "page_number": 9
         },
         {
-            "document": "South_of_France_-_Things_to_Do.pdf",
-            "refined_text": "The South of France, with its stunning coastline, picturesque villages, and vibrant cities, offers a wealth of activities and experiences for travelers. Whether you're seeking adventure, relaxation, or cultural enrichment, this region has something for everyone. This guide will take you through a variety of activities and must-see attractions to help you plan an unforgettable trip.",
+            "document": "South_of_France_-_History.pdf",
+            "refined_text": "This guide will take you through the histories of major cities, famous historical sites, and other points of interest to help you plan an enriching and unforgettable trip. Old Town (Vieux Nice): The historic center of Nice is a labyrinth of narrow streets, baroque churches, and bustling markets. Tour Magne: This ancient Roman tower, part of the city's original fortifications, oﬀers panoramic views of Nîmes and the surrounding area7.",
             "page_number": 1
         },
         {
-            "document": "South_of_France_-_Things_to_Do.pdf",
-            "refined_text": "The South of France is a diverse and enchanting region that offers a wide range of activities and experiences for travelers. Whether you're exploring the stunning coastline, immersing yourself in the rich cultural heritage, or indulging in the culinary delights, there is something for everyone to enjoy. From family-friendly adventures to vibrant nightlife, the South of France promises an unforgettable journey filled with memories that will last a lifetime. Use this guide to plan your trip and make the most of everything this beautiful region has to offer.",
-            "page_number": 13
+            "document": "South_of_France_-_Restaurants_and_Hotels.pdf",
+            "refined_text": "Hôtel Les Roches Rouges (Saint-Raphaël): A family-friendly hotel located on the beach, oﬀering comfortable rooms, a kids' club, and a variety of water sports. Hôtel Barrière Le Majestic (Cannes): A luxurious family-friendly hotel oﬀering spacious rooms, beautiful gardens, and a variety of activities for children. • Club Med Opio en Provence (Opio): A family-friendly resort oﬀering a wide range of activities for children and adults, including sports, entertainment, and kids' clubs.",
+            "page_number": 9
         },
         {
             "document": "South_of_France_-_Cuisine.pdf",
-            "refined_text": "The South of France offers a rich and diverse culinary landscape that is sure to delight any food lover. From fresh seafood and Provencal dishes to iconic restaurants and unique culinary experiences, there is something for everyone to enjoy. Whether you're savoring a bowl of bouillabaisse by the sea, exploring vibrant food markets, or indulging in a Michelin-starred meal, the flavors of this beautiful region will leave a lasting impression. Use this guide to plan your culinary journey and savor the tastes of the South of France, creating memories that will linger long after your trip has ended. Bon appetit!",
-            "page_number": 8
+            "refined_text": "This guide will take you through the diﬀerent types of food, famous dishes, must-visit restaurants, renowned wine regions, and the types of wines they produce to help you plan an unforgettable culinary adventure. Basque cuisine is also known for its pintxos, small snacks typically served in bars, and gâteau Basque, a traditional Basque cake filled with pastry cream or cherry jam. Niçoise Cuisine: Originating from Nice, this cuisine includes dishes like Salade Niçoise, a salad with tuna, olives, and anchovies, and Socca, a chickpea flour pancake.",
+            "page_number": 1
+        },
+        {
+            "document": "South_of_France_-_Cuisine.pdf",
+            "refined_text": "Ratatouille: A vegetable stew made with eggplant, zucchini, bell peppers, tomatoes, and onions, seasoned with herbs de Provence. The dessert was created by a Polish baker in the 1950s and quickly became a favorite among locals and tourists alike. • Bouillabaisse: A traditional fish stew from Marseille, made with various types of fish, shellfish, and a flavorful broth seasoned with saﬀron and herbs.",
+            "page_number": 3
+        },
+        {
+            "document": "South_of_France_-_Restaurants_and_Hotels.pdf",
+            "refined_text": "Hôtel Barrière Le Majestic (Cannes): A luxurious hotel located on the Boulevard de la Croisette, oﬀering elegant rooms, a private beach, and a Michelin-starred restaurant. • Hôtel Martinez (Cannes): A luxurious hotel located on the Boulevard de la Croisette, oﬀering elegant rooms, a private beach, and a Michelin-starred restaurant. • Hôtel Le Negresco (Nice): A luxurious hotel located on the Boulevard de la Croisette, oﬀering elegant rooms, a private beach, and a Michelin-starred restaurant.",
+            "page_number": 11
+        },
+        {
+            "document": "South_of_France_-_Things_to_Do.pdf",
+            "refined_text": "Saint-Tropez: Experience the exclusive beach clubs and glamorous atmosphere. Antibes: Relax on the pebbled beaches and explore the charming old town. Nice: Visit the sandy shores and enjoy the vibrant Promenade des Anglais. •",
+            "page_number": 2
+        },
+        {
+            "document": "South_of_France_-_Things_to_Do.pdf",
+            "refined_text": "• Cannes, Nice, and Saint-Tropez: Try jet skiing or parasailing for a thrill. Toulon: Dive into the underwater world with scuba diving excursions to explore wrecks. Mediterranean Coast: Charter a yacht or join a sailing tour to explore the coastline and nearby islands.",
+            "page_number": 2
         }
     ]
 }

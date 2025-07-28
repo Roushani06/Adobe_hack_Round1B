@@ -17,67 +17,130 @@
             "Test Your Acrobat Exporting Skills.pdf",
             "The Ultimate PDF Sharing Checklist.pdf"
         ],
-        "persona": "HR professional",
-        "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
-        "processing_timestamp": "2025-07-28T12:50:18.243805"
+        "persona": {
+            "role": "HR professional"
+        },
+        "job_to_be_done": {
+            "task": "Create and manage fillable forms for onboarding and compliance."
+        },
+        "processing_timestamp": "2025-07-28T17:08:15.792403",
+        "processing_metrics": {
+            "total_sections": 40,
+            "selected_sections": 10
+        }
     },
     "extracted_sections": [
         {
-            "document": "Learn Acrobat - Fill and Sign",
-            "section_title": "Flat forms: These do not have interactive fields.",
-            "importance_rank": 9,
-            "page_number": 2
+            "document": "Learn Acrobat - Generative AI_1",
+            "section_title": "Feedback",
+            "importance_rank": 6,
+            "page_number": 4
         },
         {
-            "document": "Learn Acrobat - Fill and Sign",
-            "section_title": "Sometimes form creators dont convert their PDFs to interactive fillable forms.",
-            "importance_rank": 8,
+            "document": "Learn Acrobat - Create and Convert_2",
+            "section_title": "Introduction",
+            "importance_rank": 5,
+            "page_number": 1
+        },
+        {
+            "document": "Learn Acrobat - Edit_1",
+            "section_title": "Note:",
+            "importance_rank": 5,
+            "page_number": 13
+        },
+        {
+            "document": "Learn Acrobat - Edit_2",
+            "section_title": "5. Select Split.",
+            "importance_rank": 5,
+            "page_number": 6
+        },
+        {
+            "document": "Learn Acrobat - Export_1",
+            "section_title": "6. Select Save.",
+            "importance_rank": 5,
+            "page_number": 7
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_2",
+            "section_title": "> Compare Signed Version To Current Version.",
+            "importance_rank": 5,
             "page_number": 8
         },
         {
+            "document": "Learn Acrobat - Share_2",
+            "section_title": "Note:",
+            "importance_rank": 5,
+            "page_number": 2
+        },
+        {
             "document": "Learn Acrobat - Request e-signatures_1",
-            "section_title": "Seed values offer additional control to document authors by letting them specify which choices signers can make when signing a document.",
-            "importance_rank": 7,
-            "page_number": 25
+            "section_title": "Account.",
+            "importance_rank": 3,
+            "page_number": 27
         },
         {
-            "document": "Learn Acrobat - Request e-signatures_2",
-            "section_title": "Certified documents: It trusts documents in which the author has certified the document with a signature.",
-            "importance_rank": 7,
-            "page_number": 5
+            "document": "Learn Acrobat - Create and Convert_1",
+            "section_title": "File Type",
+            "importance_rank": 2,
+            "page_number": 2
         },
         {
-            "document": "Learn Acrobat - Request e-signatures_2",
-            "section_title": "Note: You can right-click a signature field in the Signatures panel to do most signature-related tasks, including adding, clearing, and validating signatures.",
-            "importance_rank": 7,
-            "page_number": 6
+            "document": "Learn Acrobat - Create and Convert_1",
+            "section_title": "Do any of the following:",
+            "importance_rank": 2,
+            "page_number": 11
         }
     ],
     "subsection_analysis": [
         {
-            "document": "Learn_Acrobat_-_Fill_and_Sign.pdf",
-            "refined_text": "Flat forms: These do not have interactive fields. It could be a paper form or PDF that hasnt been optimized for form filling. The Fill Sign tool automatically detects the form fields like text fields, comb fields, checkboxes, and radio buttons. You can manually add text and other symbols anywhere on the form using the Fill Sign tool if required.",
-            "page_number": 2
+            "document": "Learn_Acrobat_-_Generative_AI_1.pdf",
+            "refined_text": "This is an ongoing process, and we will continue to work together with our customers and community to harness the power of this new technology responsibly. If manual review of your content takes place, a limited group of trained Adobe personnel examine the content within an encrypted repository with access controls.",
+            "page_number": 4
         },
         {
-            "document": "Learn_Acrobat_-_Fill_and_Sign.pdf",
-            "refined_text": "Not all forms are fillable. Sometimes form creators dont convert their PDFs to interactive fillable forms. Or, they intentionally design a form that you can fill in only by hand or with the Fill Sign tool. These non-interactive forms are called flat forms.",
+            "document": "Learn_Acrobat_-_Create_and_Convert_2.pdf",
+            "refined_text": "To convert the selected Visio layers to individual layers (but not grouped under a layer set), click the Add Layer(s) button. 1. With the multilayered file open in Visio, click a button in the Adobe PDF toolbar, and select Retain Some Layers",
+            "page_number": 1
+        },
+        {
+            "document": "Learn_Acrobat_-_Edit_1.pdf",
+            "refined_text": "Note: Select multiple items if you want to edit them together in the same file. Select Edit from the global bar. Modify images in a PDF To modify images in a PDF, select Edit from the global bar.",
+            "page_number": 13
+        },
+        {
+            "document": "Learn_Acrobat_-_Edit_2.pdf",
+            "refined_text": "You can specify various numbering styles for a group of pages, for example, 1, 2, 3, or i, ii, iii, or a, b, c. In the PDF containing the replacement pages, select a page or group of pages you want as replacements. from the contextual toolbar that appears next to the selected page Replace pages in a PDF 1.",
+            "page_number": 6
+        },
+        {
+            "document": "Learn_Acrobat_-_Export_1.pdf",
+            "refined_text": "For an explanation of each compatibility setting, view PDF compatibility levels. File format op�ons for PDF export in Acrobat To convert a PDF to different file formats, select Convert from the global bar.",
+            "page_number": 7
+        },
+        {
+            "document": "Learn_Acrobat_-_Request_e-signatures_2.pdf",
+            "refined_text": "To view an explanation of the problem, hover the pointer over a Signature Badge with a warning icon. For a list and explanation of each warning, see the DigSig Admin Guide. To view signatures on the PDF Portfolio, navigate to the cover sheet to view the document message bar and signatures pane.",
             "page_number": 8
         },
         {
+            "document": "Learn_Acrobat_-_Share_2.pdf",
+            "refined_text": "You might group markups temporarily to move them to a new location or to modify their properties rather than editing each one individually. Ungroup markups 1. The drawing markup tools are grouped under the Draw freehand tool in the floating quick tools menu on the left.",
+            "page_number": 2
+        },
+        {
             "document": "Learn_Acrobat_-_Request_e-signatures_1.pdf",
-            "refined_text": "Seed values offer additional control to document authors by letting them specify which choices signers can make when signing a document. By applying seed values to signature fields in unsigned PDFs, authors can customize options and automate tasks. They can also specify signature requirements for items such as certificates and timestamp servers. For more information about customizing signatures using seed values, see the Digital Signature Guide.",
-            "page_number": 25
+            "refined_text": "By developing a storage area for trusted certificates, you or a member of your workgroup can facilitate the use of encryption in the workgroup.",
+            "page_number": 27
         },
         {
-            "document": "Learn_Acrobat_-_Request_e-signatures_2.pdf",
-            "refined_text": "Certified documents: It trusts documents in which the author has certified the document with a signature. You trust the signer for certifying documents, and you accept actions that the certified document takes. When the 'Certified documents' option is selected, the following options are available:",
-            "page_number": 5
+            "document": "Learn_Acrobat_-_Create_and_Convert_1.pdf",
+            "refined_text": "PDF Creation Methods Any file format Method 1: From the top tools bar, select Create. Method 1: From the top tools bar, select Create. Method 1: From the top tools bar, select Create.",
+            "page_number": 2
         },
         {
-            "document": "Learn_Acrobat_-_Request_e-signatures_2.pdf",
-            "refined_text": "Note: You can right-click a signature field in the Signatures panel to do most signature-related tasks, including adding, clearing, and validating signatures. In some cases, however, the signature field becomes locked after you sign it.",
-            "page_number": 6
+            "document": "Learn_Acrobat_-_Create_and_Convert_1.pdf",
+            "refined_text": "• In Acrobat, select Create from the global bar.",
+            "page_number": 11
         }
     ]
 }
