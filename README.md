@@ -30,8 +30,8 @@ Snigdha Kumar – [GitHub](https://github.com/snigdhaydv27)
 #### Option 1: Using Virtual Environment
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/persona-doc-intel.git
-cd persona-doc-intel
+git clone https://github.com/snigdhaydv27/Adobe_hack_Round1B.git
+cd Adobe_hack_Round1B
 
 # Remove the existing virtual environment (if any)
 Remove-Item -Recurse -Force venv
@@ -67,7 +67,7 @@ docker run -v ${PWD}/input:/app/input -v ${PWD}/output:/app/output pdf_analyser:
 
 ## 📁 File Structure
 ```
-persona-doc-intel/
+Adobe_hack_Round1B/
 ├── input/
 │   ├── collection1/          # Sample input collection 1
 │   │   ├── pdfs/            # PDF documents for this collection
@@ -140,9 +140,6 @@ The system generates a JSON output with:
 3. Commit your changes (`git commit -m 'Add YourFeature'`)
 4. Push to the branch (`git push origin feature/YourFeature`)
 5. Open a Pull Request
-
-## 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 - spaCy community for NLP tools
