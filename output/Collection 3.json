@@ -1,428 +1,77 @@
 {
-  "metadata": {
-    "collection": "Collection 3",
-    "input_documents": [
-      "Breakfast Ideas.pdf",
-      "Dinner Ideas - Mains_1.pdf",
-      "Dinner Ideas - Mains_2.pdf",
-      "Dinner Ideas - Mains_3.pdf",
-      "Dinner Ideas - Sides_1.pdf",
-      "Dinner Ideas - Sides_2.pdf",
-      "Dinner Ideas - Sides_3.pdf",
-      "Dinner Ideas - Sides_4.pdf",
-      "Lunch Ideas.pdf"
+    "metadata": {
+        "input_documents": [
+            "Breakfast Ideas.pdf",
+            "Dinner Ideas - Mains_1.pdf",
+            "Dinner Ideas - Mains_2.pdf",
+            "Dinner Ideas - Mains_3.pdf",
+            "Dinner Ideas - Sides_1.pdf",
+            "Dinner Ideas - Sides_2.pdf",
+            "Dinner Ideas - Sides_3.pdf",
+            "Dinner Ideas - Sides_4.pdf",
+            "Lunch Ideas.pdf"
+        ],
+        "persona": "Food Contractor",
+        "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+        "processing_timestamp": "2025-07-28T12:50:40.479739"
+    },
+    "extracted_sections": [
+        {
+            "document": "Breakfast Ideas",
+            "section_title": "In a bowl, whisk together flour, sugar, baking powder, baking soda, and salt.",
+            "importance_rank": 2,
+            "page_number": 2
+        },
+        {
+            "document": "Breakfast Ideas",
+            "section_title": "Pour the wet ingredients into the dry ingredients and stir until just combined.",
+            "importance_rank": 2,
+            "page_number": 8
+        },
+        {
+            "document": "Breakfast Ideas",
+            "section_title": "Press the mixture into a greased baking dish.",
+            "importance_rank": 1,
+            "page_number": 7
+        },
+        {
+            "document": "Breakfast Ideas",
+            "section_title": "In a bowl, whisk together eggs, milk, salt, and pepper.",
+            "importance_rank": 1,
+            "page_number": 9
+        },
+        {
+            "document": "Breakfast Ideas",
+            "section_title": "Process until the mixture comes together.",
+            "importance_rank": 1,
+            "page_number": 15
+        }
     ],
-    "persona": "Food Contractor",
-    "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
-    "processing_timestamp": "2025-07-28T06:55:29.695481"
-  },
-  "extracted_sections": [
-    {
-      "document": "Breakfast Ideas",
-      "section_title": "Pancakes Ingredients:",
-      "page": 2,
-      "importance_rank": 0
-    },
-    {
-      "document": "Breakfast Ideas",
-      "section_title": "1 cup all-purpose flour",
-      "page": 2,
-      "importance_rank": 0
-    },
-    {
-      "document": "Breakfast Ideas",
-      "section_title": "2 tablespoons sugar 2 tablespoons melted butter 1 ...",
-      "page": 2,
-      "importance_rank": 0
-    },
-    {
-      "document": "Breakfast Ideas",
-      "section_title": "1 teaspoon baking powder 12 teaspoon baking soda 1...",
-      "page": 2,
-      "importance_rank": 0
-    },
-    {
-      "document": "Breakfast Ideas",
-      "section_title": "Instructions:",
-      "page": 2,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Mains_1",
-      "section_title": "Beef Stroganoff Ingredients:",
-      "page": 2,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Mains_1",
-      "section_title": "1 pound beef sirloin, thinly sliced 1 small onion,...",
-      "page": 2,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Mains_1",
-      "section_title": "Instructions:",
-      "page": 2,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Mains_1",
-      "section_title": "In a large skillet, melt butter over medium heat",
-      "page": 2,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Mains_1",
-      "section_title": "Add diced onion and minced garlic, saute until tra...",
-      "page": 2,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Mains_2",
-      "section_title": "1 teaspoon thyme 1 teaspoon rosemary 14 cup olive ...",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Mains_2",
-      "section_title": "Instructions:",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Mains_2",
-      "section_title": "In a large baking dish, layer diced eggplant, zucc...",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Mains_2",
-      "section_title": "Preheat oven to 375F (190C)",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Mains_2",
-      "section_title": "Roast Chicken Ingredients:",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Mains_3",
-      "section_title": "Return chicken to the skillet and cook until heate...",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Mains_3",
-      "section_title": "Peking Duck Ingredients:",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Mains_3",
-      "section_title": "1 whole duck 14 cup soy sauce 14 cup honey 2 table...",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Mains_3",
-      "section_title": "Instructions:",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Mains_3",
-      "section_title": "Preheat oven to 375F (190C)",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_1",
-      "section_title": "o Prepare each side dish separately",
-      "page": 5,
-      "importance_rank": 1
-    },
-    {
-      "document": "Dinner Ideas - Sides_1",
-      "section_title": "Acaraje",
-      "page": 2,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_1",
-      "section_title": "Ingredients:",
-      "page": 2,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_1",
-      "section_title": "o 2 cups black-eyed peas o 1 small onion o 2 clove...",
-      "page": 2,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_1",
-      "section_title": "Instructions:",
-      "page": 2,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_2",
-      "section_title": "Churros",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_2",
-      "section_title": "Ingredients:",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_2",
-      "section_title": "o 1 cup water o 12 cup butter o 1 cup flour o 3 eg...",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_2",
-      "section_title": "Instructions:",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_2",
-      "section_title": "o Bring water and butter to a boil",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_3",
-      "section_title": "o 2 cloves garlic o 4 tomatoes o 4 cups vegetable ...",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_3",
-      "section_title": "Instructions:",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_3",
-      "section_title": "o Saute diced onion and minced garlic until soften...",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_3",
-      "section_title": "turmeric, and salt",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_3",
-      "section_title": "o Simmer for 30 minutes until lentils are tender",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_4",
-      "section_title": "o Scramble eggs in the same pan",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_4",
-      "section_title": "Pajeon (Pancakes) Ingredients:",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_4",
-      "section_title": "o 1 cup flour o 1 cup water o 1 egg o 12 cup green...",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_4",
-      "section_title": "Instructions:",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Dinner Ideas - Sides_4",
-      "section_title": "o Mix flour, water, and beaten egg in a bowl",
-      "page": 1,
-      "importance_rank": 0
-    },
-    {
-      "document": "Lunch Ideas",
-      "section_title": "Chicken Caesar Wrap Ingredients:",
-      "page": 2,
-      "importance_rank": 0
-    },
-    {
-      "document": "Lunch Ideas",
-      "section_title": "1 whole wheat tortilla 1 cup cooked chicken breast...",
-      "page": 2,
-      "importance_rank": 0
-    },
-    {
-      "document": "Lunch Ideas",
-      "section_title": "Instructions:",
-      "page": 2,
-      "importance_rank": 0
-    },
-    {
-      "document": "Lunch Ideas",
-      "section_title": "Lay the tortilla flat and spread the Caesar dressi...",
-      "page": 2,
-      "importance_rank": 0
-    },
-    {
-      "document": "Lunch Ideas",
-      "section_title": "Quinoa Salad Ingredients:",
-      "page": 2,
-      "importance_rank": 0
-    }
-  ],
-  "subsection_analysis": [
-    {
-      "document": "Breakfast Ideas.pdf",
-      "refined_text": "Pancakes Ingredients:",
-      "page_number": 2
-    },
-    {
-      "document": "Breakfast Ideas.pdf",
-      "refined_text": "Pancakes Ingredients:",
-      "page_number": 2
-    },
-    {
-      "document": "Breakfast Ideas.pdf",
-      "refined_text": "Pancakes Ingredients:",
-      "page_number": 2
-    },
-    {
-      "document": "Dinner Ideas - Mains_1.pdf",
-      "refined_text": "Beef Stroganoff Ingredients:",
-      "page_number": 2
-    },
-    {
-      "document": "Dinner Ideas - Mains_1.pdf",
-      "refined_text": "Beef Stroganoff Ingredients:",
-      "page_number": 2
-    },
-    {
-      "document": "Dinner Ideas - Mains_1.pdf",
-      "refined_text": "Beef Stroganoff Ingredients:",
-      "page_number": 2
-    },
-    {
-      "document": "Dinner Ideas - Mains_2.pdf",
-      "refined_text": "1 teaspoon thyme 1 teaspoon rosemary 14 cup olive oil Salt and pepper to taste",
-      "page_number": 1
-    },
-    {
-      "document": "Dinner Ideas - Mains_2.pdf",
-      "refined_text": "1 teaspoon thyme 1 teaspoon rosemary 14 cup olive oil Salt and pepper to taste",
-      "page_number": 1
-    },
-    {
-      "document": "Dinner Ideas - Mains_2.pdf",
-      "refined_text": "1 teaspoon thyme 1 teaspoon rosemary 14 cup olive oil Salt and pepper to taste",
-      "page_number": 1
-    },
-    {
-      "document": "Dinner Ideas - Mains_3.pdf",
-      "refined_text": "Return chicken to the skillet and cook until heated through. Serve warm.",
-      "page_number": 1
-    },
-    {
-      "document": "Dinner Ideas - Mains_3.pdf",
-      "refined_text": "Return chicken to the skillet and cook until heated through. Serve warm.",
-      "page_number": 1
-    },
-    {
-      "document": "Dinner Ideas - Mains_3.pdf",
-      "refined_text": "Return chicken to the skillet and cook until heated through. Serve warm.",
-      "page_number": 1
-    },
-    {
-      "document": "Dinner Ideas - Sides_1.pdf",
-      "refined_text": "o Oil for frying",
-      "page_number": 5
-    },
-    {
-      "document": "Dinner Ideas - Sides_1.pdf",
-      "refined_text": "Acaraje",
-      "page_number": 2
-    },
-    {
-      "document": "Dinner Ideas - Sides_1.pdf",
-      "refined_text": "Acaraje",
-      "page_number": 2
-    },
-    {
-      "document": "Dinner Ideas - Sides_2.pdf",
-      "refined_text": "Churros",
-      "page_number": 1
-    },
-    {
-      "document": "Dinner Ideas - Sides_2.pdf",
-      "refined_text": "Churros",
-      "page_number": 1
-    },
-    {
-      "document": "Dinner Ideas - Sides_2.pdf",
-      "refined_text": "Churros",
-      "page_number": 1
-    },
-    {
-      "document": "Dinner Ideas - Sides_3.pdf",
-      "refined_text": "o 2 cloves garlic o 4 tomatoes o 4 cups vegetable broth o 1 teaspoon cumin o 1 teaspoon coriander o 1 teaspoon turmeric o 1 teaspoon salt o 14 cup cilantro",
-      "page_number": 1
-    },
-    {
-      "document": "Dinner Ideas - Sides_3.pdf",
-      "refined_text": "o 2 cloves garlic o 4 tomatoes o 4 cups vegetable broth o 1 teaspoon cumin o 1 teaspoon coriander o 1 teaspoon turmeric o 1 teaspoon salt o 14 cup cilantro",
-      "page_number": 1
-    },
-    {
-      "document": "Dinner Ideas - Sides_3.pdf",
-      "refined_text": "o 2 cloves garlic o 4 tomatoes o 4 cups vegetable broth o 1 teaspoon cumin o 1 teaspoon coriander o 1 teaspoon turmeric o 1 teaspoon salt o 14 cup cilantro",
-      "page_number": 1
-    },
-    {
-      "document": "Dinner Ideas - Sides_4.pdf",
-      "refined_text": "o Scramble eggs in the same pan. o Add noodles, fish sauce, tamarind paste, sugar, and lime juice, stir to combine. o Add bean sprouts, cooked shrimp, and chopped green onions.",
-      "page_number": 1
-    },
-    {
-      "document": "Dinner Ideas - Sides_4.pdf",
-      "refined_text": "o Scramble eggs in the same pan. o Add noodles, fish sauce, tamarind paste, sugar, and lime juice, stir to combine. o Add bean sprouts, cooked shrimp, and chopped green onions.",
-      "page_number": 1
-    },
-    {
-      "document": "Dinner Ideas - Sides_4.pdf",
-      "refined_text": "o Scramble eggs in the same pan. o Add noodles, fish sauce, tamarind paste, sugar, and lime juice, stir to combine. o Add bean sprouts, cooked shrimp, and chopped green onions.",
-      "page_number": 1
-    },
-    {
-      "document": "Lunch Ideas.pdf",
-      "refined_text": "Chicken Caesar Wrap Ingredients:",
-      "page_number": 2
-    },
-    {
-      "document": "Lunch Ideas.pdf",
-      "refined_text": "Chicken Caesar Wrap Ingredients:",
-      "page_number": 2
-    },
-    {
-      "document": "Lunch Ideas.pdf",
-      "refined_text": "Chicken Caesar Wrap Ingredients:",
-      "page_number": 2
-    }
-  ]
+    "subsection_analysis": [
+        {
+            "document": "Breakfast_Ideas.pdf",
+            "refined_text": "In a bowl, whisk together flour, sugar, baking powder, baking soda, and salt. In another bowl, combine buttermilk, egg, melted butter, and vanilla extract. Pour the wet ingredients into the dry ingredients and stir until just combined. Heat a non-stick skillet over medium heat and lightly grease it. Pour 14 cup of batter onto the skillet for each pancake.",
+            "page_number": 2
+        },
+        {
+            "document": "Breakfast_Ideas.pdf",
+            "refined_text": "Preheat oven to 375F (190C). Pour the wet ingredients into the dry ingredients and stir until just combined. Fold in the berries. Divide the batter evenly among a greased muffin tin. Bake for 20-25 minutes or until a toothpick inserted into the center comes out clean.",
+            "page_number": 8
+        },
+        {
+            "document": "Breakfast_Ideas.pdf",
+            "refined_text": "Press the mixture into a greased baking dish. Bake for 20-25 minutes or until golden brown. Let cool before cutting into bars.",
+            "page_number": 7
+        },
+        {
+            "document": "Breakfast_Ideas.pdf",
+            "refined_text": "Preheat oven to 350F (175C). In a bowl, whisk together eggs, milk, salt, and pepper. Stir in cheese, sausage or bacon, bell pepper, and onion. Pour the mixture into a greased baking dish. Bake for 30-35 minutes or until the eggs are set.",
+            "page_number": 9
+        },
+        {
+            "document": "Breakfast_Ideas.pdf",
+            "refined_text": "Process until the mixture comes together. Press the mixture into a greased baking dish. Refrigerate for at least 1 hour before cutting into bars. Store in an airtight container.",
+            "page_number": 15
+        }
+    ]
 }

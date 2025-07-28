@@ -1,30 +1,26 @@
+# main.py
 import os
 import json
 from datetime import datetime
 from src.document_processor import DocumentProcessor
 from src.persona_analyzer import PersonaAnalyzer
 
-def process_collection(collection_path, collection_name):
-    # Find config file in collection directory
-    config_files = [f for f in os.listdir(collection_path) if f.endswith('.json') and f != 'output.json']
+def process_collection(collection_path, output_filename=None):
+    # Find config file
+    config_files = [f for f in os.listdir(collection_path) if f.endswith('.json')]
     if not config_files:
-        print(f"No config file found in {collection_path}")
-        return
+        raise FileNotFoundError(f"No config file found in {collection_path}")
     
     config_path = os.path.join(collection_path, config_files[0])
     
-    # Load configuration
     with open(config_path) as f:
         config = json.load(f)
     
-    # Initialize components
     processor = DocumentProcessor()
     analyzer = PersonaAnalyzer(config['persona'], config['job_to_be_done'])
     
-    # Process documents
     results = {
         "metadata": {
-            "collection": collection_name,
             "input_documents": [doc['filename'] for doc in config['documents']],
             "persona": config['persona']['role'],
             "job_to_be_done": config['job_to_be_done']['task'],
@@ -35,6 +31,9 @@ def process_collection(collection_path, collection_name):
     }
     
     pdfs_dir = os.path.join(collection_path, 'pdfs')
+    all_ranked_sections = []
+    
+    # Process each document
     for doc in config['documents']:
         filepath = os.path.join(pdfs_dir, doc['filename'])
         if not os.path.exists(filepath):
@@ -43,27 +42,34 @@ def process_collection(collection_path, collection_name):
             
         sections = processor.process(filepath)
         ranked_sections = analyzer.rank(sections, doc['title'])
+        all_ranked_sections.extend(ranked_sections)
+    
+    # Sort all sections across documents by importance
+    all_ranked_sections.sort(key=lambda x: x['importance_rank'], reverse=True)
+    
+    # Select top sections (5 or 25% of all sections, whichever is smaller)
+    max_sections = min(5, len(all_ranked_sections) // 4 or 1)
+    top_sections = all_ranked_sections[:max_sections]
+    
+    # Prepare final output
+    for section in top_sections:
+        results['extracted_sections'].append({
+            "document": section['document'],
+            "section_title": section['section_title'],
+            "importance_rank": section['importance_rank'],
+            "page_number": section['page']
+        })
         
-        # Add top sections to results
-        results['extracted_sections'].extend(ranked_sections[:5])
-        
-        # Add refined text for analysis
-        for section in ranked_sections[:3]:
-            original_section = next(
-                s for s in sections 
-                if s['page'] == section['page']
-            )
-            refined = analyzer.refine(original_section['text'])
-            results['subsection_analysis'].append({
-                "document": doc['filename'],
-                "refined_text": refined,
-                "page_number": section['page']
-            })
+        refined = analyzer.refine(section['raw_text'])
+        results['subsection_analysis'].append({
+            "document": os.path.basename(section['document'].replace(' ', '_') + '.pdf'),
+            "refined_text": refined,
+            "page_number": section['page']
+        })
     
     return results
 
 def main():
-    # Create output directory if it doesn't exist
     os.makedirs('output', exist_ok=True)
     
     # Process each collection in input directory
@@ -73,14 +79,23 @@ def main():
             continue
             
         print(f"Processing collection: {collection_name}")
-        results = process_collection(collection_path, collection_name)
         
-        if results:
-            # Save results with collection name
-            output_path = os.path.join('output', f"{collection_name}.json")
+        try:
+            results = process_collection(collection_path)
+            
+            # Determine output filename
+            output_filename = f"{collection_name}.json"
+            if 'challenge_info' in results['metadata']:
+                challenge_id = results['metadata']['challenge_info']['challenge_id']
+                output_filename = f"{challenge_id}_output.json"
+            
+            output_path = os.path.join('output', output_filename)
             with open(output_path, 'w', encoding='utf-8') as f:
-                json.dump(results, f, indent=2, ensure_ascii=False)
+                json.dump(results, f, indent=4, ensure_ascii=False)
             print(f"Saved results to {output_path}")
+            
+        except Exception as e:
+            print(f"Error processing {collection_name}: {str(e)}")
 
 if __name__ == "__main__":
     main()
