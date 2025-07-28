@@ -18,8 +18,10 @@ RUN pip install --no-cache-dir -r requirements.txt && \
     python -m spacy download en_core_web_sm --no-deps && \
     python -m nltk.downloader -d /usr/local/share/nltk_data punkt stopwords
 
-# Copy only necessary files
-COPY ./src ./src
-COPY main.py .
+# Copy the entire project (excluding files in .dockerignore)
+COPY . .
+
+# Create input and output directories if they don't exist
+RUN mkdir -p /app/input && mkdir -p /app/output
 
 ENTRYPOINT ["python", "main.py"]
