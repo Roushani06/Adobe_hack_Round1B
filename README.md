@@ -10,6 +10,18 @@
 
 An intelligent document analysis system that extracts and prioritizes relevant sections from documents based on specific user personas and their tasks.
 
+
+
+## 👥 Team-ZenCode 
+# Members
+
+| Name              | Role                | GitHub Profile |
+|-------------------|---------------------|----------------|
+| [Roushani Kumari] | Project Lead        | [@Roushani06]  |
+| [Snigdha Kumar]   | NLP Specialist      | [@snigdhaydv27]|
+
+
+
 ## 🚀 Quick Start
 
 ### Prerequisites
