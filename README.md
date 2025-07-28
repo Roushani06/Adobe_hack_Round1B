@@ -145,3 +145,5 @@ The system generates a JSON output with:
 - spaCy community for NLP tools
 - NLTK team for text processing capabilities
 - PDFMiner.six developers for PDF
+
+✨ Built with passion for Adobe Hackathon
