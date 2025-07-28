@@ -18,6 +18,7 @@ An intelligent document analysis system that extracts and prioritizes relevant s
 
 ### Installation
 
+#### Option 1: Using Virtual Environment
 ```bash
 # Clone repository
 git clone https://github.com/yourusername/persona-doc-intel.git
@@ -41,25 +42,37 @@ python -m spacy download en_core_web_sm
 python -m nltk.downloader punkt stopwords
 ```
 
-### Running the Application
 ```bash
+# Running the Application
 python main.py
+```
+
+#### Option 2: Using Docker
+```bash
+# Build Docker image
+docker build -t pdf_analyser:latest .
+
+# Run with volume mounts for input and output
+docker run -v ${PWD}/input:/app/input -v ${PWD}/output:/app/output pdf_analyser:latest
 ```
 
 ## 📁 File Structure
 ```
 persona-doc-intel/
-├── input/               # Input documents
-│   ├── document1.pdf    # Sample document
-│   └── input.json       # Configuration
-├── output/              # Output JSON
-├── src/                 # Source code
-│   ├── document_processor.py
-│   ├── persona_analyzer.py
-│   └── utils.py
-├── main.py              # Main script
-├── requirements.txt     # Dependencies
-└── README.md           # This file
+├── input/                      # Directory for input files
+│   ├── document1.pdf          # Sample PDF document for analysis
+│   └── input.json            # Configuration file with persona and job details
+├── output/                    # Directory for generated analysis results
+├── src/                      # Source code directory
+│   ├── document_processor.py # Handles PDF parsing and text extraction
+│   ├── persona_analyzer.py   # Implements persona-based content analysis
+│   └── utils.py             # Common utilities and helper functions
+├── .dockerignore            # Specifies files to exclude from Docker builds
+├── approach_explanation.md  # Technical documentation of analysis methodology
+├── Dockerfile              # Instructions for building Docker container
+├── main.py                # Application entry point and orchestration
+├── requirements.txt       # Python package dependencies
+└── README.md             # Project documentation and setup instructions
 ```
 
 ## 🛠️ Technologies Used
