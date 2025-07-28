@@ -33,7 +33,7 @@ Snigdha Kumar – [GitHub](https://github.com/snigdhaydv27)
 git clone https://github.com/snigdhaydv27/Adobe_hack_Round1B.git
 cd Adobe_hack_Round1B
 
-# Remove the existing virtual environment (if any)
+# Remove the existing virtual environment if present already(optional)
 Remove-Item -Recurse -Force venv
 
 # Create and activate virtual environment
