@@ -12,13 +12,10 @@ An intelligent document analysis system that extracts and prioritizes relevant s
 
 
 
-## 👥 Team-ZenCode 
-# Members
+## 👨‍💻 Team - ZenCode
 
-| Name              | Role                | GitHub Profile |
-|-------------------|---------------------|----------------|
-| Roushani Kumari   | Project Lead        | @Roushani06    |
-| Snigdha Kumar     | NLP Specialist      | @snigdhaydv27  |
+Roushani Kumari(Leader) – [GitHub](https://github.com/Roushani06)  
+Snigdha Kumar – [GitHub](https://github.com/snigdhaydv27)
 
 
 
